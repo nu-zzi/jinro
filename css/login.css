@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cf::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-container .main-wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-container .main-wrap header .languageBox {
+    float: right;
+    margin-top: 50px;
+}
+
+.main-container .main-wrap .languageBox .language {
+    width: 96px;
+    height: 30px;
+    color: #888;
+    border: solid 1px #ddd;
+    cursor: pointer;
+}
+
+.main-container .main-wrap .logo-wrap {
+    padding-top: 55px;
+    clear: both;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.main-container .main-wrap .logo-wrap img {
+    width: 230px;
+}
+
+.loginBox {
+    padding-top: 60px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login-input-wrap {
+    border: solid 1px #ddd;
+    background: white;
+}
+
+.password-wrap {
+    margin-top: 13px;
+}
+
+.login-input-wrap input {
+    border: none;
+    font-size: 14px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.login-stay {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.login-stay input {
+    font-size: 18px;
+    color: #9ba1a3;
+}
+
+.login-stay span {
+    padding-left: 5px;
+    line-height: 25px;
+    color: #777;
+    font-size: 14px;
+    vertical-align: text-top;
+}
+
+.login-button-wrap {
+    padding-top: 30px;
+}
+
+.login-button-wrap input {
+    width: 100%;
+    height: 48px;
+    font-size: 22px;
+    background: #4064ac;
+    color: white;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+.find-wrap {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.find-wrap ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.find-wrap li {
+    float: left;
+    padding: 0 10px;
+    width: calc(100% / 3 );
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.find-wrap li:last-of-type {
+    border: none;
+}
+
+.find-wrap li a {
+    color: #777;
+}
+
+footer {
+    margin-top: 140px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.copyright-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer .copyright-wrap p {
+    font-size: 13px;
+    color: #999;
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+footer .copyright-wrap img {
+    width: 80px;
+}
+

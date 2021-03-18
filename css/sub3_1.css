@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+.box1 {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.box1_top h2{
+    font-size: 1.7em;
+}
+
+.box1_top p {
+    color: #777;
+}
+
+#box1_bottom {
+    margin-top: 110px;
+    width: 100%;
+}
+
+.box1_L {
+    float: left;
+    width: 50%;
+}
+
+.box1_L img {
+    width: 60%;
+    margin-left: 100px;
+}
+
+.box1_R {
+    float: right;
+    width: 50%;
+}
+
+.box1_R span {
+    font-size: 20px;
+}
+
+.box1_R p {
+    color: #888;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.box1_R a {
+    padding: 10px;
+    margin-top: 30px;
+    background: #4682c7;
+    color: #ffffff;
+}
+
+.box1_R a:hover {
+    background: #2b4d83;
+}
+
+.box2 {
+    margin-top: 110px;
+    width: 100%;
+}
+
+.box2_L {
+    float: left;
+    width: 53%;
+    margin-top: 100px;
+}
+
+.box2_R {
+    float: right;
+    width: 47%;
+}
+
+.box2_R img {
+    width: 90%;
+}
+
+.box2 p:first-of-type {
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+
+.box2 p:nth-of-type(2) {
+    font-size: 35px;
+    letter-spacing: -3px;
+}
+
+.box2 span {
+    font-size: 35px;
+    color: #4682c7;
+    letter-spacing: -3px;
+}
+
+.box2 p:last-of-type {
+    font-size: 15px;
+    color: #555555;
+    display: block;
+    margin-top: 20px;
+}
+
+.box3 {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.box3 h2 {
+    margin-bottom: 70px;
+}
+
+.box3 img {
+    float: left;
+    width: 50%;
+    height: 250px;
+    object-fit: contain;
+    margin-top: 32px;
+}
+
+.box3 ul {
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.box3 li {
+    margin-bottom: 20px;
+}
+
+.box3 span {
+    color: #777;
+    font-size: 15px;
+}
+
+.box4 {
+    margin-top: 110px;
+    width: 100%;
+    clear: both;
+}
+
+.box4 h2 {
+    margin-bottom: 70px;
+}
+
+.box4_L {
+    float: left;
+    margin-right: 20px;
+    width: calc(50% - 10px);
+}
+
+.box4_R {
+    float: right;
+    width: calc(50% - 10px);
+}
+
+.box4_list {
+    margin-bottom: 30px;
+}
+
+.box4_list img {
+    float: left;
+    object-fit: cover;
+}
+
+.box4_list .list_text {
+    float: right;
+    width: 83%;
+}
+
+.list_text span {
+    font-size: 1.2em;
+}
+
+.list_text p {
+    font-size: 0.9em;
+    color: #777;
+}

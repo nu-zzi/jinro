@@ -1,0 +1,301 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cf::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#top a {
+    display: scroll;
+    position:fixed;
+    right: 15%;
+    bottom: 10%;
+}
+
+#top i {
+    font-size: 30px;
+    color: #4a5aee;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#header .header_top {
+    height: 75px;
+}
+
+#header .logo-wrapper {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 50px)
+}
+
+/* 드래그 안되게하기. */
+#header .logo-wrapper img::selection {
+    background-color: transparent;
+}
+
+#header .language-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+
+}
+
+#header .language-wrapper a {
+    font-size: 12px;
+    padding: 5px 15px 5px 0px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #666;
+}
+
+#header .language-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#header .language-wrapper select {
+    width: 85px;
+    height: 20px;
+    border: none;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    background: url(../img/bg_select_arrow1.png) no-repeat 100% 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#header nav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#header nav>ul {
+    width: 100%;
+    padding: 0 110px;
+}
+
+#header nav>ul>li {
+    width: calc(100% / 4);
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#header nav>ul>li:hover .sub {
+    height: 230px;
+}
+
+#header nav>ul>li>a {
+    color: #111111;
+}
+
+#header nav>ul li>a:hover {
+    color: #050442;
+}
+.sub {
+    background: rgba(43, 92, 224, 0.9);
+    margin-top: 15px;
+    min-width: 1200px;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+nav>ul>li:not(:first-of-type) .sub>ul {
+    padding: 0 140px;
+}
+
+.sub_box {
+    height: 100%;
+}
+
+.sub_box>li {
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    /* border-right: 1px solid rgba(28, 51, 102, 0.5); */
+    width: calc(100% / 3);
+    height: 230px;
+}
+
+.sub_box1>li {
+    width: calc(100% / 7);
+}
+
+.sub_box>li>a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #efefef;
+}
+
+.sub_box>li>p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.sub_box>li>a {
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.sub_box>li:last-of-type {
+    border-right: none;
+}
+
+.sub_box ul li {
+    font-size: 15px;
+    font-weight: 300;
+    height: 100%;
+}
+
+.sub_box ul li a {
+    color: #fff;
+}
+
+.icon_box {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.icon_box a {
+    padding-right: 10px;
+    color: #cad1fa;
+}
+
+.icon_box a:hover {
+    color: #2e3f9c;
+}
+
+.headtext {
+    float: right;
+    margin-top: 150px;    
+}
+
+.headtext span {
+    padding-left: 15px;
+}
+
+.textbox {
+    margin-top: 150px;
+}
+
+.textbox h1 {
+    font-size: 2.5em;
+}
+
+.textbox p {
+    color: #333333;
+}
+
+
+#footer {
+    min-width: 1200px;
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    background: #1959c0;
+    color: #e4e4e4;
+    font-weight: 100;
+}
+
+.footer_box {
+    padding-top: 20px;
+    position: relative;
+}
+
+.footer_text1 {
+    float: left;
+
+}
+
+.footer_text1 a{
+    color: #eeeeee;
+    padding-right: 20px;
+}
+
+.footer_text1 a:hover {
+    color: #56a0f5;
+}
+
+.footer_icon {
+    float: right;
+}
+
+.footer_icon li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.footer_icon a{
+    font-size: 1.5em;
+    color: #c8c8c8;
+    transition: all 0.3s;
+}
+
+.footer_icon a:hover {
+    color: #56a0f5;
+}
+
+.footer_text2 {
+    width: 800px;
+    clear: both;
+    font-size: 0.85em;
+    color: #c8c8c8;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
